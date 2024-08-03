@@ -1,8 +1,53 @@
 /** @format */
 
 .sidebar {
-    flex: 1 1 25%; /* Sidebar takes up 25% of the width */
-    padding: 20px;
+    display: flex;
+    max-width: 270px;
+    flex-direction: column;
+    flex: 1 1 25%;
+    padding: 30px;
     border-right: 1px solid rgb(71, 70, 70);
     height: 100vh;
+}
+
+.profile-top {
+    margin-top: 15px;
+    font-size: 28px;
+    margin-left: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+
+.profile-top > span {
+    margin-left: 20px;
+}
+
+.sidebarItem {
+    display: flex;
+    align-items: center;
+    margin-left: 48px;
+    margin-bottom: 32px;
+    cursor: pointer;
+}
+
+.sidebarItem > span {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.settings-bottom {
+    margin-top: auto;
+    margin-left: 16px;
+    margin-bottom: 8rem;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.settings-bottom > span {
+    font-size: 24px;
+    margin-left: 20px;
 }

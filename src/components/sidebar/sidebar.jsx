@@ -9,33 +9,43 @@ import MessageIcon from "../svg/MessageIcon";
 import StageIcon from "../svg/StageIcon";
 import NotificationIcon from "../svg/NotificationIcon";
 import CreateIcon from "../svg/CreateIcon";
+import BackIcon from "../svg/BackIcon";
+import SettingsIcon from "../svg/SettingsIcon";
 
 function Sidebar() {
     return (
         <div className="sidebar">
-            <div className="sidebarItem">
-                <HomeIcon size={24} strokeWidth={1.5} />
-                Home
+            <div className="profile-top">
+                <BackIcon size={24} strokeWidth={2} />
+                <span>Profile</span>
             </div>
             <div className="sidebarItem">
-                <SearchIcon size={24} strokeWidth={1.5} />
-                Search
+                <HomeIcon size={32} strokeWidth={1.5} />
+                <span>Home</span>
             </div>
             <div className="sidebarItem">
-                <MessageIcon size={24} strokeWidth={1.5} />
-                Messages
+                <SearchIcon size={32} strokeWidth={1.5} />
+                <span>Search</span>
             </div>
             <div className="sidebarItem">
-                <StageIcon size={24} strokeWidth={1.5} />
-                Stage
+                <MessageIcon size={32} strokeWidth={1.5} />
+                <span>Messages</span>
             </div>
             <div className="sidebarItem">
-                <CreateIcon size={24} strokeWidth={1.5} />
-                Create
+                <StageIcon size={32} strokeWidth={1.5} />
+                <span>Stage</span>
             </div>
             <div className="sidebarItem">
-                <NotificationIcon size={24} strokeWidth={1.5} />
-                Notification
+                <CreateIcon size={32} strokeWidth={1.5} />
+                <span>Create</span>
+            </div>
+            <div className="sidebarItem">
+                <NotificationIcon size={32} strokeWidth={1.5} />
+                <span>Notifications</span>
+            </div>
+            <div className="settings-bottom">
+                <SettingsIcon size={42} strokeWidth={1.5} />
+                <span>Settings</span>
             </div>
         </div>
     );
