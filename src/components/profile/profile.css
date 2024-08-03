@@ -1,0 +1,47 @@
+/** @format */
+
+.profile-content {
+    flex: 3 1 75%; /* Main content takes up 75% of the width */
+    padding: 0 20px;
+}
+.profile-header {
+    position: relative;
+    height: 35%;
+    overflow: hidden;
+    background: rgb(63, 63, 117);
+    background: linear-gradient(
+        180deg,
+        rgba(63, 63, 117, 1) 0%,
+        rgba(61, 61, 114, 1) 3%,
+        rgba(56, 56, 105, 1) 14%,
+        rgba(48, 48, 89, 1) 33%,
+        rgba(45, 45, 84, 1) 41%,
+        rgba(41, 41, 77, 1) 47%,
+        rgba(37, 37, 69, 1) 53%,
+        rgba(2, 2, 2, 1) 100%
+    );
+}
+
+.profile-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(38, 38, 38, 0.4); /* Semi-transparent white */
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    z-index: 1;
+    border-radius: 0 0 25px 25px;
+}
+
+.profile-info {
+    position: relative; /* Ensure it is above the overlay */
+    z-index: 2; /* Make sure content is above the overlay */
+    color: #fff; /* Optional: Adjust text color to be readable over the overlay */
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between items */
+}
+
+.profile-item {
+}

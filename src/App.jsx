@@ -1,11 +1,13 @@
 /** @format */
-
+import Sidebar from "./components/sidebar/sidebar";
+import Profile from "./components/profile/profile";
 import "./App.css";
 
 function App() {
     return (
         <>
-            <div>Home Page</div>
+            <Sidebar />
+            <Profile />
         </>
     );
 }

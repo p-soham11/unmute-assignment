@@ -1,0 +1,8 @@
+/** @format */
+
+.sidebar {
+    flex: 1 1 25%; /* Sidebar takes up 25% of the width */
+    padding: 20px;
+    border-right: 1px solid rgb(71, 70, 70);
+    height: 100vh;
+}
