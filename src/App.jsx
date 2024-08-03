@@ -1,6 +1,6 @@
 /** @format */
-import Sidebar from "./components/sidebar/sidebar";
-import Profile from "./components/profile/profile";
+import Sidebar from "./components/sidebar/Sidebar";
+import Profile from "./components/profile/Profile";
 import "./App.css";
 
 function App() {
