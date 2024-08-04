@@ -96,6 +96,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 12px;
 }
 
 .icon {
@@ -103,6 +104,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
+    cursor: pointer;
 }
 
 .circle {
@@ -112,4 +114,51 @@
     background: rgb(25, 27, 81);
     border-radius: 50%;
     z-index: -1;
+}
+
+.id-stats {
+    margin-top: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.profile-voice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 18px;
+    min-width: 340px;
+    max-width: 480px;
+}
+
+.banner-icon {
+    margin-left: 10px;
+    margin-right: 16px;
+    color: #2f2f2f;
+}
+
+.banner-content {
+    color: #2f2f2f;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-text {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.banner-content .banner-text:nth-of-type(2) {
+    color: rgb(92, 78, 181);
 }

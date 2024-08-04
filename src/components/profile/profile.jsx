@@ -6,6 +6,7 @@ import "./profile.css";
 import MessageIcon from "../svg/MessageIcon";
 import VideoCallIcon from "../svg/VideoCallIcon";
 import VoiceCallIcon from "../svg/VoiceCallIcon";
+import QrIcon from "../svg/QrIcon";
 
 function Profile() {
     return (
@@ -38,8 +39,30 @@ function Profile() {
                         <VoiceCallIcon size={24} strokeWidth={1.25} />
                     </div>
                 </div>
-                <div>Voice Highlight</div>
-                <div>Pop-up Action</div>
+                <div className="id-stats">
+                    <span> john.ab96 &nbsp;</span> • <span>&nbsp; 45,679 </span>
+                </div>
+                <div className="profile-voice">
+                    <img
+                        src="/src/assets/voice-note.png"
+                        alt="VoiceNoteImg"
+                        height={72}
+                        width={354}
+                    />
+                </div>
+                <div className="banner">
+                    <div className="banner-icon">
+                        <QrIcon size={26} strokeWidth={1.2} />
+                    </div>
+                    <div className="banner-content">
+                        <div className="banner-text">
+                            Find friends on Snapchat
+                        </div>
+                        <div className="banner-text">
+                            Tap to sync your contact
+                        </div>
+                    </div>
+                </div>
                 <div>Profile Posts</div>
             </div>
         </div>
