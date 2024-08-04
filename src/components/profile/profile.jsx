@@ -3,6 +3,10 @@
 import React from "react";
 import "./profile.css";
 
+import MessageIcon from "../svg/MessageIcon";
+import VideoCallIcon from "../svg/VideoCallIcon";
+import VoiceCallIcon from "../svg/VoiceCallIcon";
+
 function Profile() {
     return (
         <div className="profile-content">
@@ -19,10 +23,25 @@ function Profile() {
                     </div>
                 </div>
             </div>
-            <div className="action-bar">Icons</div>
-            <div>Voice Highlight</div>
-            <div>Pop-up Action</div>
-            <div>Profile Posts</div>
+            <div className="profile-body-container">
+                <div className="action-bar">
+                    <div className="icon">
+                        <div className="circle"></div>
+                        <MessageIcon size={24} strokeWidth={1.25} />
+                    </div>
+                    <div className="icon">
+                        <div className="circle"></div>
+                        <VideoCallIcon size={24} strokeWidth={1.25} />
+                    </div>
+                    <div className="icon">
+                        <div className="circle"></div>
+                        <VoiceCallIcon size={24} strokeWidth={1.25} />
+                    </div>
+                </div>
+                <div>Voice Highlight</div>
+                <div>Pop-up Action</div>
+                <div>Profile Posts</div>
+            </div>
         </div>
     );
 }

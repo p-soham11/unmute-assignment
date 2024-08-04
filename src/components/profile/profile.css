@@ -81,3 +81,35 @@
         border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
     }
 }
+
+.profile-body-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.action-bar {
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.circle {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    background: rgb(25, 27, 81);
+    border-radius: 50%;
+    z-index: -1;
+}
