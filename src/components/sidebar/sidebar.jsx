@@ -16,7 +16,7 @@ function Sidebar() {
     return (
         <div className="sidebar">
             <div className="profile-top">
-                <BackIcon size={24} strokeWidth={2} />
+                <BackIcon size={28} strokeWidth={2} />
                 <span>Profile</span>
             </div>
             <div className="sidebarItem">

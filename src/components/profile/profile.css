@@ -1,12 +1,13 @@
 /** @format */
 
 .profile-content {
-    flex: 3 1 75%; /* Main content takes up 75% of the width */
+    flex: 3 1 75%;
     padding: 0 20px;
 }
 .profile-header {
     position: relative;
-    height: 35%;
+    height: 32%;
+    min-height: 280px;
     overflow: hidden;
     background: rgb(63, 63, 117);
     background: linear-gradient(
@@ -28,20 +29,55 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(38, 38, 38, 0.36); /* Semi-transparent white */
-    backdrop-filter: blur(10px); /* Apply blur effect */
+    background: rgba(38, 38, 38, 0.36);
+    backdrop-filter: blur(10px);
     z-index: 1;
     border-radius: 0 0 25px 25px;
 }
 
 .profile-info {
-    position: relative; /* Ensure it is above the overlay */
-    z-index: 2; /* Make sure content is above the overlay */
-    color: #fff; /* Optional: Adjust text color to be readable over the overlay */
+    position: relative;
+    z-index: 2;
+    color: #fff;
     display: flex;
+    padding-top: 36px;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    gap: 10px; /* Space between items */
+    gap: 10px;
 }
 
-.profile-item {
+.profile-name {
+    font-size: 1.24rem;
+    font-weight: 600;
+    margin-top: 12px;
+}
+
+.user-name {
+    font-size: small;
+    color: rgb(166, 172, 177);
+}
+
+.profile-picture {
+    background: url(../../assets/jhab.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 120px;
+    height: 120px;
+    box-shadow: inset 0 0 0 5px rgb(255 255 255 / 30%);
+    justify-self: center;
+    animation: profile__animate 8s ease-in-out infinite 1s;
+}
+
+@keyframes profile__animate {
+    0% {
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+    50% {
+        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    }
+    100% {
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
 }

@@ -9,9 +9,12 @@ function Profile() {
             <div className="profile-header">
                 <div className="profile-overlay"></div>
                 <div className="profile-info">
-                    <div className="profile-item">John Abraham</div>
-                    <div className="profile-item">@johnAbraham</div>
-                    <div className="profile-item">
+                    <div className="profile-picture"></div>
+                    <div className="profile-item profile-name">
+                        John Abraham
+                    </div>
+                    <div className="profile-item user-name">@johnAbraham</div>
+                    <div className="profile-item stats">
                         124341 Followers | 1.2K Following
                     </div>
                 </div>
