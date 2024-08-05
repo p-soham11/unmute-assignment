@@ -63,7 +63,70 @@ function Profile() {
                         </div>
                     </div>
                 </div>
-                <div>Profile Posts</div>
+                <div className="post-section">
+                    <div className="post-header">
+                        <span>My Audios</span>
+                        <span>View All</span>
+                    </div>
+                    <div className="post-feed">
+                        <div className="feed-row">
+                            <img
+                                src="/src/assets/postImg1.jpg"
+                                alt=""
+                                srcset=""
+                                height={148}
+                                width={142}
+                            />
+                            <img
+                                src="/src/assets/postImg2.jpg"
+                                alt=""
+                                srcset=""
+                                height={148}
+                                width={142}
+                            />
+                            <div className="image-wrapper overlay-wrapper">
+                                <img
+                                    src="/src/assets/postImg5.jpg"
+                                    alt=""
+                                    srcset=""
+                                    height={148}
+                                    width={142}
+                                />
+                                <div className="overlay">
+                                    <div className="overlay-text">255+</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="feed-row">
+                            <img
+                                src="/src/assets/postImg4.jpg"
+                                alt=""
+                                srcset=""
+                                height={148}
+                                width={142}
+                            />
+                            <img
+                                src="/src/assets/postImg3.jpg"
+                                alt=""
+                                srcset=""
+                                height={148}
+                                width={142}
+                            />
+                            <div className="image-wrapper overlay-wrapper">
+                                <img
+                                    src="/src/assets/postImg6.jpg"
+                                    alt=""
+                                    srcset=""
+                                    height={148}
+                                    width={142}
+                                />
+                                <div className="overlay">
+                                    <div className="overlay-text">255+</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     );

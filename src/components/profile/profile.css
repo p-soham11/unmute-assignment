@@ -162,3 +162,72 @@
 .banner-content .banner-text:nth-of-type(2) {
     color: rgb(92, 78, 181);
 }
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-header > span {
+    margin: 0 7.2rem;
+}
+
+.post-feed {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.feed-row {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.feed-row img {
+    width: 142px;
+    height: 148px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.image-wrapper {
+    position: relative;
+    width: 142px;
+    height: 148px;
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.overlay {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    opacity: 1;
+    /* transition: opacity 0.3s; */
+}
+
+.overlay-text {
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* .overlay-wrapper:hover .overlay {
+    opacity: 1;
+} */
