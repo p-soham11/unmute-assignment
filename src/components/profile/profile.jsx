@@ -44,7 +44,7 @@ function Profile() {
                 </div>
                 <div className="profile-voice">
                     <img
-                        src="/src/assets/voice-note.png"
+                        src="/voice-note.png"
                         alt="VoiceNoteImg"
                         height={72}
                         width={354}
@@ -71,14 +71,14 @@ function Profile() {
                     <div className="post-feed">
                         <div className="feed-row">
                             <img
-                                src="/src/assets/postImg1.jpg"
+                                src="/postImg1.jpg"
                                 alt=""
                                 srcset=""
                                 height={148}
                                 width={142}
                             />
                             <img
-                                src="/src/assets/postImg2.jpg"
+                                src="/postImg2.jpg"
                                 alt=""
                                 srcset=""
                                 height={148}
@@ -86,7 +86,7 @@ function Profile() {
                             />
                             <div className="image-wrapper overlay-wrapper">
                                 <img
-                                    src="/src/assets/postImg5.jpg"
+                                    src="/postImg5.jpg"
                                     alt=""
                                     srcset=""
                                     height={148}
@@ -99,14 +99,14 @@ function Profile() {
                         </div>
                         <div className="feed-row">
                             <img
-                                src="/src/assets/postImg4.jpg"
+                                src="/postImg4.jpg"
                                 alt=""
                                 srcset=""
                                 height={148}
                                 width={142}
                             />
                             <img
-                                src="/src/assets/postImg3.jpg"
+                                src="/postImg3.jpg"
                                 alt=""
                                 srcset=""
                                 height={148}
@@ -114,7 +114,7 @@ function Profile() {
                             />
                             <div className="image-wrapper overlay-wrapper">
                                 <img
-                                    src="/src/assets/postImg6.jpg"
+                                    src="/postImg6.jpg"
                                     alt=""
                                     srcset=""
                                     height={148}
