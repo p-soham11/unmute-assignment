@@ -13,4 +13,6 @@ body {
     width: 100%;
     background-color: rgb(3, 2, 2);
     color: rgb(255, 255, 255);
+    /* Change the font if needed */
+    /* font-family: "Poppins", sans-serif; */
 }
